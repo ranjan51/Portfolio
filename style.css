@@ -321,7 +321,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 600px){
         #header{
-             background-image: url(/images/WhatsApp\ Image\ 2022-11-27\ at\ 8.10.48\ PM.jpeg); 
+             background-image: url("Main.png"); 
              /* background-image: url(/images/Myimage.png);  */
             
         }
