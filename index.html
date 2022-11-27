@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranjan_Kishor</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/d70aa96f3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="C:/Users/ranjan kishor/Desktop/PORTFOLIO/images/Logo.png" class="logo">
+                <ul id="sidemenu">
+                   <li><a href="#header">Home</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#portfolio">Projects</a></li>
+                   <li><a href="#services">Portfolio</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <!-- ------Intro------ -->
+            <div class="header-text">
+            <p>MCA STUDENT</p>
+            <h1>Hii I'am<span> Ranjan</span><br>scroll down to <br>know more.</h1>
+        </div>
+        </div>
+    </div>
+<!---------ABOUT----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="C:/Users/ranjan kishor/Desktop/PORTFOLIO/images/User6.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hii, I'm Ranjan Kishor, Currently pursuing Master of Computer Application, and have coding skills in
+                        Python, C++ and JAVA. I am good at analyzing problem and solving them in efficient
+                        way. With ability to be hyper-perceptive I seek a challenging position to learn
+                        new things, adapt to new conditions and outperform.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('projects')">Certification</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <!-- ----------skills---------------- -->
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages</span><br>C/C++, Python, Java, Html, Css,<br> JavaScript.</li>
+                        <li><span>Concepts</span><br>Object Oriented Programming (OOPS),<br>Software Development Life Cycle (SDLC),<br>Operating Systems.</li>
+                        <li><span>Technologies</span><br>Data Structures and Algorithms,<br>Databse and Management System(Mysql)</li>
+                        
+                        
+                    </ul>
+                </div>
+                <!-- ----Certification------ -->
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>Jul 2022 - Oct 2022</span><br>React-The complete Guide | UDEMY</li>
+                        <li><span>Jan 2020 - Mar 2020</span><br>Programming in C | NIIT</li>
+                        <li><span>Sep 2019 - Oct 2019</span><br>Programming in Java | NIIT</li>
+                        <li><span>Jun 2017 - Aug 2017</span><br>Diploma in Computer Application | IACT</li>
+                        <li><span>June 2018 - Sept 2018</span><br>Spoken English | The British Institutes</li>
+                        
+                    </ul>
+                </div>
+                <!-- --------EDUCATION-------- -->
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2023</span><br>MCA-(BMSIT Bengaluru)</li>
+                        <li><span>2018-2021</span><br>BCA-(ACMS Kolkata)</li>
+                        <li><span>2016-2018</span><br>ISC-(BSEB Bihar)</li>
+                        <li><span>2015-2016</span><br>10th-(BSEB Bihar)</li>
+                        
+                    </ul>
+                </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-------More About Me------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">More About me</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-camera"></i>
+                    <h2>Photography</h2>
+                    <p>Photographs play an important role in my life – it connect me to my past, that remind me of people, places, feelings, and stories.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <h2>Fittness</h2>
+                        <p>Good health and fitness help me both mental and physical well-being.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa-sharp fa-solid fa-school"></i>
+                         <h2>LifeTime Student</h2>
+                         <p> Knowledge has to be improved, challenged, and increased constantly.</p>
+                         <a href="#">Learn More</a>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------PORTFOLIO-------------- -->
+    <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">PROJECTS</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="C:/Users/ranjan kishor/Desktop/PORTFOLIO/images/React10.png">
+                <div class="layer">
+                    <h3>Movie Search App</h3>
+                    <p>This React Movie Search App will be having the feature to
+                     Search the Movies from OMDB APIs</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="C:/Users/ranjan kishor/Desktop/PORTFOLIO/images/Myntra-final.png">
+                <div class="layer">
+                    <h3>Myntra Clone App</h3>
+                    <p>It is a responsive website (Myntra Clone) with some extra feature, made using
+                        HTML, CSS.</p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="C:/Users/ranjan kishor/Desktop\PORTFOLIO/images/Covid-19 2.png">
+                <div class="layer">
+                    <h3>Covid 19 Data Analysis</h3>
+                    <p>This is designed using Python modules. You will get an idea about the impact of Covid-19 and the vaccination status globally. Using Data Visualization we have ceated plots
+                        about the cases, vaccination status and other details.
+                        </p>
+                     <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact-Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>ranjankishor83@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-9661916051</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ranjan-kishor-8481b1204/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_ranjankishor/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/ranjan.kishor.754vijaykumar"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/ranjan51"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="/images/Ranjan_Kishor.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Ranjan. Made by <i class="fa-solid fa-heart"></i> Ranjan_Kishor</p>
+    </div>
+</div>
+
+
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby2CRU87v-4xZYPTcFz6Cu8LPRhdLsPGUyTQryEuCi_CLmf6Ax9UgvY_RhU6vDMNGzf/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
